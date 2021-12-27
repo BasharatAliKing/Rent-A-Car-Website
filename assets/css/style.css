@@ -195,8 +195,8 @@ width: 100px;
     font-size: 40px;
    border: 2px solid white;
    border-radius: 50%;
-   padding: 20px;
-   margin: 0px 120px;
+   padding: 20px 30px;
+   margin: 0px auto;
 }
 #contact .card{
     padding: 20px 0px;
@@ -334,10 +334,7 @@ footer{
       
         margin-right: 0px;
     }
-    #contact i{
-       
-       margin: 0px 50px;
-    }
+
     #contact iframe{
         height: 300px;
     }
@@ -350,10 +347,7 @@ footer{
     #home  h1{
       margin-right: 10px;
     } 
-    #contact i{
-       
-        margin: 0px 150px;
-     }
+   
     #contact .card{
         margin-top: 30px;
     }
@@ -407,13 +401,8 @@ footer{
         padding: 6px 30px;
         
     }
-    #contact i{
-       
-        margin: 0px 50px;
-     }
-    #links h4{
-        text-align: start;
-    }
+    
+   
     #links h4::after{
         margin-left: 50px;
       }
