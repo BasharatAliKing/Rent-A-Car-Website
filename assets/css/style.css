@@ -1,0 +1,417 @@
+/* #header{
+    background-color: #343a40;
+} */
+#header ul li a{
+    color: #c7c4c4;
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: 'Alike Angular', serif;
+    font-weight: bold;
+    text-shadow: 0px 1px gray;
+
+}
+h1{
+    font-family: 'Changa One', cursive;
+}
+#header ul li a:hover{
+  color: black;
+    /* border: 1px solid gray ; */
+  background-color: rgb(235, 225, 211);
+  box-shadow: 0px 0px 4px 4px white;
+    font-size: 25px;
+}
+#header ul{
+    margin-left: 40px;
+}
+#header img{
+width: 100px;
+}
+#header form .btn{
+    background-color: white;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    border: 2px solid black;
+}
+#header form .btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+#home{
+    background: url('/assets/pics/home-background.jpg')no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 90px 0px;
+}
+#home  h3{
+    text-align: start;
+    border-left: 5px solid white;
+  color: white;
+   padding-left: 10px;
+    margin-right: 660px;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+#home img{
+    width: 100%;
+    height: 100%;
+    flex-basis: 33%;
+}
+#home  h1{
+   text-align: start;
+    margin-right: 400px;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    text-shadow: 2px 3px white;
+}
+#home  P{
+    text-align: start;
+    padding-left: 10px;
+    color: black;
+    border-left: 5px solid white;
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+    color: white;
+    margin-right: 390px;
+}
+#home .btn{
+    background-color: white;
+    color: black;
+    margin-left: -800px;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+}
+#home .btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+
+#about{
+    margin-top: 80px;
+}
+#about h1::after{
+  content: " ";
+  display: block;
+  width:90px;
+  background-color: rgb(255, 255, 255);
+  height: 5px;
+   margin-top: 10px;
+ 
+}
+#about img{
+    width: 400px;
+}
+#about h2{
+    margin-top: 40px;
+}
+#about{
+    background: url('/assets/pics/about\ background.jpeg')no-repeat center center/cover;
+    padding: 60px 0px ;
+    color: white;
+   
+}
+#about .col-md-8 .btn{
+    background-color: white;
+    color: black;
+   margin-top: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+#about .btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+#about p{
+    margin-top: 30px;
+    font-family: 'Alike Angular', serif;
+    font-size: 18px;
+
+}
+#about .col-md-8 .btn1{
+    background-color: white;
+    color: black;
+   margin-top: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 10px 60px;
+  border-radius: 10px;
+}
+#about .btn1:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+#services{
+    margin-top: 80px;
+    background: url('/assets/pics/service\ \ background.jpg')no-repeat center center/cover;
+    background-attachment: fixed;
+    
+    color:white;
+    padding: 60px 0px;
+}
+#services h1{
+    border-left:  6px solid rgb(255, 255, 255);
+    padding-left: 20px;
+}
+#services i{
+    font-size: 50px;
+    align-items:center;
+}
+#services h4{
+    padding-left: 10px;
+    font-family: 'Alike Angular', serif;
+}
+#services .media-body{
+    margin-left: 20px;
+}
+#services h4{
+    background-color:  black;
+    color: white;
+    padding: 5px;
+}
+#services h4 #plus{
+    position: absolute;
+    right: 20px;
+    font-weight: bolder;
+}
+#services p{
+    margin-top: 10px;
+}
+
+#contact{
+    color: white;
+    margin-top: 80px;
+   background: url('/assets/pics/contact-background.jpg')no-repeat center center/cover;
+   background-attachment: fixed;
+   padding: 60px 0px;
+}
+#contact h1{
+    font-size: 40px;
+    color: white;
+    border-left: 5px solid white;
+    padding-left: 10px;
+}
+#contact img{
+    width: 100px;
+    margin-left: 125px;
+}
+#contact .card{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #00000075;
+    color: white;
+}
+#contact .card:hover{
+    margin-top: -10px;
+}
+#contact .card p{
+    margin: 0px;
+}
+#contact h2{
+    border-left: 5px solid white;
+    padding-left: 10px;
+}
+#contact input{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+}
+#contact ::placeholder{
+    color: white;
+}
+#contact textarea{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    color: white;
+}
+#contact #form{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #00000075;
+    box-shadow: 0px 0px 4px 4px  black;
+    border-radius: 20px;
+}
+#contact #form #btn{
+    position: absolute;
+   color: white;
+   padding: 6px 30px;
+    right: 50px;
+}
+#contact #form .btn{
+  
+    color: black;
+   margin-top: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+#contact #form .btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+
+#links{
+    color: white;
+    margin-top: 80px;
+    background-color: black;
+    padding: 60px 0px;
+}
+#links img{
+    width: 200px;
+    border: none;
+}
+#links .col-md-8 .btn{
+    background-color: white;
+    color: black;
+   margin-top: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+#links .btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}
+#links h4::after{
+    margin-top: 10px;
+    content: " ";
+   display: block;
+    width: 200px ;
+    height: 1px ;
+    background-color: rgb(94, 91, 91);
+}
+#links ul li{
+    margin-top: 5px;
+}
+#links ul li a {
+    color: white;
+    font-size: 18px;
+}
+#links ul li a:hover{
+    text-decoration: none;
+    text-shadow: 1px 2px  rgb(124, 122, 122);
+
+}
+#links i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+#links #address ul li a {
+    font-size: 16px;
+}
+
+#links #icons i{
+    font-size: 40px;
+    color: rgb(151, 148, 148);
+  
+}
+#links #icons i:hover{
+   color:white
+}
+footer{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+@media (max-width:992px){
+    #header ul li a {
+        margin-left: -100px;
+    }
+    #home  h3{
+        margin-right: 260px;
+    }
+    #home  h1{
+      
+         margin-right: 180px;
+
+     } 
+     #home  P{
+      
+        margin-right: 0px;
+    }
+    #contact .card img{
+        margin-left: 55px;
+    }
+    #contact iframe{
+        height: 300px;
+    }
+}
+
+@media (max-width:776px){
+    #home h3{
+        margin-right: 50px;
+    }
+    #home  h1{
+      margin-right: 10px;
+    } 
+    #contact .card img{
+        width: 100px;
+        margin-left: 200px;
+    }
+    #contact .card{
+        margin-top: 30px;
+    }
+    #contact h2{
+        margin-top: 30px;
+    }
+    #contact iframe{
+        width: 100%;
+    }
+    #links {
+        text-align: center;
+    }
+    #links h4::after{
+      margin-left: 150px;
+    }
+}
+@media(max-width:576px){
+    #header img{
+        width: 70px;
+    }
+    #header ul li a{
+        margin-left: -30px;
+    }
+    #header form button{
+        margin-top: 10px;
+    }
+    #home h3{
+        margin-right: 0px;
+        font-size: 22px;
+    }
+    #home h1{
+        font-size: 30px;
+        margin-right: 0px;
+    }
+    #home h2{
+        margin-right: 0px;
+    }
+    #services h4{
+        font-size: 18px;
+    }
+    #contact h2{
+        font-size: 30px;
+    }
+#contact #form{
+    text-align: center;
+}
+    #contact #form #btn {
+        margin: 0px;
+        position:static;
+        color: white;
+        padding: 6px 30px;
+        
+    }
+    #contact .card img{
+        width: 100px;
+        margin-left: 80px;
+      
+    }
+    #links h4::after{
+        margin-left: 40px;
+      }
+      footer{
+          font-size: 12px;
+      }
+}
