@@ -378,6 +378,9 @@ footer{
     #header form button{
         margin-top: 10px;
     }
+    #home{
+        background-position:left;
+    }
     #home h3{
         margin-right: 0px;
         font-size: 22px;
