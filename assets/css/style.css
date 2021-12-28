@@ -125,6 +125,7 @@ width: 100px;
     margin-top: 30px;
     font-family: 'Alike Angular', serif;
     font-size: 18px;
+    background-color: #000000b3;
 
 }
 #about .col-md-8 .btn1{
@@ -384,12 +385,19 @@ footer{
     #home h2{
         margin-right: 0px;
     }
+    #services{
+       background-position:bottom;
+    }
     #services h4{
         font-size: 18px;
     }
+    #contact{
+        background-position:right;
+     }
     #contact h2{
         font-size: 30px;
     }
+   
 #contact #form{
     text-align: center;
 }
